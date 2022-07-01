@@ -1,0 +1,28 @@
+{
+  "name": "sdk_s3_test",
+  "version": "1.0.0",
+  "description": "Simple script to test localstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnemcbride/simplepathtoserverless.git"
+  },
+  "keywords": [
+    "AWS",
+    "Serverless",
+    "LocalStack"
+  ],
+  "author": "John McBride",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnemcbride/simplepathtoserverless/issues"
+  },
+  "homepage": "https://github.com/johnemcbride/simplepathtoserverless#readme",
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.113.0",
+    "jest": "^28.1.1"
+  }
+}
